@@ -1,0 +1,31 @@
+.section {
+    margin-top: 5rem;
+}
+
+.container {
+    width: 100%;    
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* border: 1px solid var(--clr-rose); */
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05rem;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    color: var(--clr-light);
+    background-color: rgb(225, 29, 72);
+    box-shadow: 0 10px 15px rgb(225, 29, 72, 0.5);
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    background-color: rgb(233, 20, 66);
+    box-shadow: 0 10px 15px rgb(225, 29, 72, 0.35);
+}
